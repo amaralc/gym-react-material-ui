@@ -1,10 +1,12 @@
 import React from 'react';
-import Tabs from '../../components/Tabs';
+import Tabs from '../../components/Layouts/Tabs';
+import Exercises from '../../components/Exercises';
 
-// import { Container } from './styles';
-
-function Dashboard() {
-  return <Tabs />;
-}
-
-export default Dashboard;
+export default () => {
+  return (
+    <>
+      <Exercises />
+      <Tabs />
+    </>
+  );
+};

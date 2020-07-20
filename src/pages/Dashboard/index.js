@@ -1,9 +1,10 @@
 import React from 'react';
+import Tabs from '../../components/Tabs';
 
 // import { Container } from './styles';
 
 function Dashboard() {
-  return <h1>Dashboard</h1>;
+  return <Tabs />;
 }
 
 export default Dashboard;

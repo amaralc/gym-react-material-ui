@@ -1,11 +1,11 @@
 import React from 'react';
 import { Route } from 'react-router-dom';
 import PropTypes from 'prop-types';
-import PrimarySearchAppBar from '../components/PrimarySearchAppBar';
-import AppWrapper from '../components/AppWrapper';
-import ContentWrapper from '../components/ContentWrapper';
-import Footer from '../components/Footer';
-import ButtonAppBar from '../components/ButtonAppBar';
+import PrimarySearchAppBar from '../components/Layouts/PrimarySearchAppBar';
+import AppWrapper from '../components/Layouts/AppWrapper';
+import ContentWrapper from '../components/Layouts/ContentWrapper';
+import Footer from '../components/Layouts/Footer';
+import ButtonAppBar from '../components/Layouts/ButtonAppBar';
 
 export default function RouteWrapper({
   component: Component,
